@@ -21,6 +21,10 @@ public class BeatData : MonoBehaviour {
     float currentTime;
 
     void Start() {
+        spawnZone[0] = GameObject.Find("BeatZones/Start1").transform;
+        spawnZone[1] = GameObject.Find("BeatZones/Start2").transform;
+
+        endZone = GameObject.Find("BeatZones/SequenceZone").transform;
         currentBeat = 0;
         beatToCheck = 0;
         offset = Time.realtimeSinceStartup;
