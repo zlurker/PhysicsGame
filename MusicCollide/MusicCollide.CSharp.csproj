@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\LevelElementsScripts\RotationScript.cs" />
     <Compile Include="Assets\Scripts\LevelElementsScripts\Vortex.cs" />
     <Compile Include="Assets\Scripts\LevelInputController\BlowMeAwayLevel.cs" />
     <Compile Include="Assets\Scripts\LevelInputController\DataBetweenLevels.cs" />
