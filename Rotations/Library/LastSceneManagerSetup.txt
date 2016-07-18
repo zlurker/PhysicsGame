@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Single Touch Turn.unity
+  isLoaded: 1
+  isActive: 1
